@@ -15,9 +15,9 @@ done
 
 cow() {
     local hypen=$(printf '%*s' "${COLUMNS:-$(tput cols)}" '' | tr ' ' '-')
-    printf "\n%s\n" "$hyphen"
+    printf "  %s\n" "$hyphen"
     printf "< %s >\n" "$1"
-    printf "%s\n" "$hyphen"
+    printf "  %s\n" "$hyphen"
     printf "        \\   ^__^\n"
     printf "         \\  (oo)\\_______\n"
     printf "            (__)\\       )\\/\n"
